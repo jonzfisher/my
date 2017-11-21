@@ -7,11 +7,10 @@ import continue_wip from './continue_wip.png'
 const IndexPage = () => (
   <div>
     <Fade duration={800} delay={400}>
-      <h1 className="f2"
+      <h1 className="f2 w5-ns"
         style={{
           paddingTop: '2rem',
           height: '40vh',
-          width: '24rem',
           lineHeight: '1.25',
           color: '#022533',
         }}
