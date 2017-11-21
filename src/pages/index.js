@@ -3,6 +3,7 @@ import { navigateTo} from 'gatsby-link'
 import { Fade, Zoom, Flip } from 'react-reveal'
 import historical_homecrafters from './historical_homecrafters.png'
 import continue_wip from './continue_wip.png'
+import tachyons from 'tachyons'
 
 const IndexPage = () => (
   <div>
@@ -16,16 +17,15 @@ const IndexPage = () => (
         >Hi, I’m Jonathan Fisher, a web developer who enjoys the creative process.</h1>
     </Fade>
     <Fade duration={600}>
-      <div className="case-study-container">
-        <img src={continue_wip} className="case-study-thumb" />
-      </div>
-    </Fade>
-    <Fade duration={600}>
-      {/* <Link to="/historical_homecrafters/"> */}
-        <div className="case-study-container" onClick={ () => navigateTo('/historical_homecrafters/')}>
-          <img src={historical_homecrafters} className="case-study-thumb" />
+      <div className="flex justify-between">
+        <div className="case-study-container dib">
+          <img src={continue_wip} className="case-study-thumb" />
         </div>
-      {/* </Link> */}
+        <a href="http://historicalhomecrafters.com/"
+          className="case-study-container dib">
+          <img src={historical_homecrafters} className="case-study-thumb" />
+        </a>
+      </div>
     </Fade>
   </div>
 )
