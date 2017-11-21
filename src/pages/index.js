@@ -10,7 +10,6 @@ const IndexPage = () => (
       <h1 className="f2 w5-ns"
         style={{
           paddingTop: '2rem',
-          height: '40vh',
           lineHeight: '1.25',
           color: '#022533',
         }}
