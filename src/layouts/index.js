@@ -4,6 +4,8 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import { Fade } from 'react-reveal'
 import Tachyons from 'tachyons'
+import logo from './logo.svg'
+import banner_cover from './banner_cover.jpg'
 import './index.css'
 
 const Header = () => (
@@ -11,6 +13,7 @@ const Header = () => (
     <div className="banner_cover"
       style={{
         marginBottom: '2rem',
+        backgroundImage: `url(${banner_cover})`
       }}
     >
       <div
@@ -28,7 +31,7 @@ const Header = () => (
             }}
           >
             <Fade>
-              <img className="logo" src="/images/logo.svg" />
+              <img className="logo" src={logo} />
             </Fade>
           </Link>
         </Fade>

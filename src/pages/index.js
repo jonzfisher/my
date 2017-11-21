@@ -1,6 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import { Fade, Zoom, Flip } from 'react-reveal'
+import hh from './historical_homecrafters.png'
+import continue_image from './continue_wip.png'
 
 const IndexPage = () => (
   <div style={{marginTop: '2rem'}}>
@@ -9,13 +11,13 @@ const IndexPage = () => (
     </Fade>
     <Fade left duration={1200}>
       <div className="case-study-container">
-        <img src="/images/continue_wip.png" className="case-study-thumb" />
+        <img src={continue_image} className="case-study-thumb" />
       </div>
     </Fade>
     <Fade left duration={1200}>
       <Link to="/historical_homecrafters/">
         <div className="case-study-container">
-          <img src="/images/historical_homecrafters.png" className="case-study-thumb" />
+          <img src={hh} className="case-study-thumb" />
         </div>
       </Link>
     </Fade>
