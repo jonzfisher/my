@@ -19,7 +19,7 @@ const IndexPage = () => (
     </Fade>
     <Fade duration={600}>
       <div className="flex justify-between">
-        <a href="dribble.com" className="case-study-container dib">
+        <a href="https://dribbble.com/shots/3942531-Continue" className="case-study-container dib">
           <img src={continue_wip} className="case-study-thumb" />
         </a>
         <a href="http://historicalhomecrafters.com/"
@@ -27,9 +27,9 @@ const IndexPage = () => (
           <img src={historical_homecrafters} className="case-study-thumb" />
         </a>
       </div>
-      <a onClick={ () => navigateTo('/historical_homecrafters/')}>
-        The Case Study
-      </a>
+    </Fade>
+    <Fade duration={2000} delay={300}>
+      <p className="italic gray f4">A case study for Historical Homecrafters coming soon...</p>
     </Fade>
   </div>
 )
