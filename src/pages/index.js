@@ -20,11 +20,11 @@ const IndexPage = () => (
       </div>
     </Fade>
     <Fade duration={600}>
-      <Link to="/historical_homecrafters/">
+      {/* <Link to="/historical_homecrafters/"> */}
         <div className="case-study-container">
           <img src={historical_homecrafters} className="case-study-thumb" />
         </div>
-      </Link>
+      {/* </Link> */}
     </Fade>
     <div style={{height: '10rem'}}></div>
   </div>

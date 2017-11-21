@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import { Fade } from 'react-reveal'
 
-const SecondPage = () => (
+const HistoricalHomecrafters = () => (
   <div>
     <Fade>
     <h1>Historical Homecrafters</h1>
@@ -12,4 +12,4 @@ const SecondPage = () => (
   </div>
 )
 
-export default SecondPage
+export default HistoricalHomecrafters
