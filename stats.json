@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-83dc012cfec9e1f739e4.js",
-      "component---src-pages-index-js-83dc012cfec9e1f739e4.js.map"
+      "component---src-pages-index-js-9f5664e90651695b6d45.js",
+      "component---src-pages-index-js-9f5664e90651695b6d45.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -13,8 +13,8 @@
       "path---historical-homecrafters-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-dfd06465564d7217e19c.js",
-      "component---src-layouts-index-js-dfd06465564d7217e19c.js.map"
+      "component---src-layouts-index-js-ada21360186b05cfd537.js",
+      "component---src-layouts-index-js-ada21360186b05cfd537.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -37,9 +37,9 @@
       "component---src-pages-historical-homecrafters-js-3cd48b4651cff47022d1.js.map"
     ],
     "app": [
-      "app-75bee70fb016b29211fb.js",
+      "app-0ae471638a52e7ef08f3.js",
       "build-js-styles.css",
-      "app-75bee70fb016b29211fb.js.map",
+      "app-0ae471638a52e7ef08f3.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
