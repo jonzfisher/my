@@ -9,45 +9,47 @@ import banner_cover from './banner_cover.jpg'
 import './index.css'
 
 const Header = () => (
-  <Fade duration={800}>
-    <div className="banner_cover"
-      style={{
-        marginBottom: '2rem',
-        backgroundImage: `url(${banner_cover})`,
-        minHeight: '10rem',
-      }}
-    >
-      <div
+  <header>
+    <Fade duration={800}>
+      <div className="banner_cover"
         style={{
-          margin: '0 auto',
-          maxWidth: 960,
-          padding: '3rem 2rem',
+          marginBottom: '2rem',
+          backgroundImage: `url(${banner_cover})`,
+          minHeight: '10rem',
         }}
       >
-        <Fade top duration={800} delay={400}>
-          <Link
-            to="/"
-            style={{
-              textDecoration: 'none',
-            }}
-          >
-            <Fade>
-              <img className="logo" src={logo} />
-            </Fade>
-          </Link>
-        </Fade>
+        <div
+          style={{
+            margin: '0 auto',
+            maxWidth: 960,
+            padding: '3rem 2rem',
+          }}
+        >
+          <Fade top duration={800} delay={400}>
+            <Link
+              to="/"
+              style={{
+                textDecoration: 'none',
+              }}
+            >
+              <Fade>
+                <img className="logo" src={logo} />
+              </Fade>
+            </Link>
+          </Fade>
+        </div>
       </div>
-    </div>
-  </Fade>
+    </Fade>
+  </header>
 )
 
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="Jonathan Fisher"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Jonathan Fisher is a web developer and designer that has interest in storytelling on the web.' },
+        { name: 'keywords', content: 'web, development, design, design systems, tachyons' },
       ]}
     />
     <Header />
@@ -61,6 +63,13 @@ const TemplateWrapper = ({ children }) => (
     >
       {children()}
     </div>
+    <footer className="sans-serif db m0 w-100">
+      <div className="mw8 center ph5 pv4">
+        <a href="http://github.com/jonzfisher" title="Github" className="f6 fw6 dib link navy">Github</a>
+        <a href="http://twitter.com/@jonzfisher" title="Github" className="f6 fw6 dib link navy pl2">Twitter</a>
+        <a href="http://medium.com/@jonzfisher" title="Medium" className="f6 fw6 dib link navy pl2">Medium</a>
+      </div>
+    </footer>
   </div>
 )
 
