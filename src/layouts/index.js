@@ -9,11 +9,12 @@ import banner_cover from './banner_cover.jpg'
 import './index.css'
 
 const Header = () => (
-  <Fade duration={1600}>
+  <Fade duration={800}>
     <div className="banner_cover"
       style={{
         marginBottom: '2rem',
-        backgroundImage: `url(${banner_cover})`
+        backgroundImage: `url(${banner_cover})`,
+        minHeight: '10rem',
       }}
     >
       <div
@@ -23,7 +24,7 @@ const Header = () => (
           padding: '3rem 2rem',
         }}
       >
-        <Fade top duration={1600} delay={800}>
+        <Fade top duration={800} delay={400}>
           <Link
             to="/"
             style={{
