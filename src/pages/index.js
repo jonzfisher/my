@@ -9,12 +9,12 @@ const IndexPage = () => (
     <Fade duration={1600} delay={1200}>
       <h1 style={{width: '16rem', fontSize: '2rem'}}>Hi, I’m Jonathan Fisher, a web developer that loves the creative process.</h1>
     </Fade>
-    <Fade left duration={1200}>
+    <Fade duration={600}>
       <div className="case-study-container">
         <img src={continue_wip} className="case-study-thumb" />
       </div>
     </Fade>
-    <Fade left duration={1200}>
+    <Fade duration={600}>
       <Link to="/historical_homecrafters/">
         <div className="case-study-container">
           <img src={historical_homecrafters} className="case-study-thumb" />
