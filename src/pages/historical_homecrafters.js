@@ -5,7 +5,7 @@ import { Fade } from 'react-reveal'
 const HistoricalHomecrafters = () => (
   <div>
     <Fade>
-    <h1>Historical Homecrafters</h1>
+      <h1>Historical Homecrafters</h1>
     </Fade>
     <p>This was a great project</p>
     <Link to="/">Go back to the homepage</Link>

@@ -10,7 +10,7 @@ body {
 .banner_cover {
   background-image: url('/images/banner_cover.jpg');
   background-size: cover;
-  height: 60vh;
+  height: 50vh;
 }
 .logo{
   width: 96px;

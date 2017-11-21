@@ -5,12 +5,14 @@ import historical_homecrafters from './historical_homecrafters.png'
 import continue_wip from './continue_wip.png'
 
 const IndexPage = () => (
-  <div style={{marginTop: '2rem'}}>
+  <div>
     <Fade duration={800} delay={400}>
-      <h1
+      <h1 className="f2"
         style={{
-          width: '16rem',
-          fontSize: '2rem',
+          paddingTop: '2rem',
+          height: '40vh',
+          width: '24rem',
+          lineHeight: '1.25',
           color: '#022533',
         }}
         >Hi, I’m Jonathan Fisher, a web developer who enjoys the creative process.</h1>
@@ -22,7 +24,7 @@ const IndexPage = () => (
     </Fade>
     <Fade duration={600}>
       {/* <Link to="/historical_homecrafters/"> */}
-        <div className="case-study-container" onClick={ () => navigateTo('/historical_homecrafters')}>
+        <div className="case-study-container" onClick={ () => navigateTo('/historical_homecrafters/')}>
           <img src={historical_homecrafters} className="case-study-thumb" />
         </div>
       {/* </Link> */}

@@ -44,7 +44,7 @@ const Header = () => (
 )
 
 const TemplateWrapper = ({ children }) => (
-  <div>
+  <div className="sans-serif">
     <Helmet
       title="Jonathan Fisher"
       meta={[
