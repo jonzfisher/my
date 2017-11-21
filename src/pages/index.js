@@ -13,19 +13,23 @@ const IndexPage = () => (
           paddingTop: '2rem',
           lineHeight: '1.25',
           color: '#022533',
-        }}
-        >Hi, I’m Jonathan Fisher, a web developer who enjoys the creative process.</h1>
+        }}>
+        Hi, I’m Jonathan Fisher, a web developer who enjoys the creative process.
+      </h1>
     </Fade>
     <Fade duration={600}>
       <div className="flex justify-between">
-        <div className="case-study-container dib">
+        <a href="dribble.com" className="case-study-container dib">
           <img src={continue_wip} className="case-study-thumb" />
-        </div>
+        </a>
         <a href="http://historicalhomecrafters.com/"
           className="case-study-container dib">
           <img src={historical_homecrafters} className="case-study-thumb" />
         </a>
       </div>
+      <a onClick={ () => navigateTo('/historical_homecrafters/')}>
+        The Case Study
+      </a>
     </Fade>
   </div>
 )
