@@ -29,7 +29,7 @@ const IndexPage = () => (
       </div>
     </Fade>
     <Fade duration={2000} delay={300}>
-      <p className="italic gray f4">A case study for Historical Homecrafters coming soon...</p>
+      <p className="i gray f4">A case study for Historical Homecrafters coming soon...</p>
     </Fade>
   </div>
 )
