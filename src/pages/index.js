@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { navigateTo} from 'gatsby-link'
 import { Fade, Zoom, Flip } from 'react-reveal'
 import historical_homecrafters from './historical_homecrafters.png'
 import continue_wip from './continue_wip.png'
@@ -12,7 +12,8 @@ const IndexPage = () => (
           width: '16rem',
           fontSize: '2rem',
           color: '#022533',
-        }}>Hi, I’m Jonathan Fisher, a web developer who enjoys the creative process.</h1>
+        }}
+        >Hi, I’m Jonathan Fisher, a web developer who enjoys the creative process.</h1>
     </Fade>
     <Fade duration={600}>
       <div className="case-study-container">
@@ -21,7 +22,7 @@ const IndexPage = () => (
     </Fade>
     <Fade duration={600}>
       {/* <Link to="/historical_homecrafters/"> */}
-        <div className="case-study-container">
+        <div className="case-study-container" onClick={ () => navigateTo('/historical_homecrafters')}>
           <img src={historical_homecrafters} className="case-study-thumb" />
         </div>
       {/* </Link> */}
