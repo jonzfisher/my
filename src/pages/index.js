@@ -7,7 +7,7 @@ import continue_wip from './continue_wip.png'
 const IndexPage = () => (
   <div style={{marginTop: '2rem'}}>
     <Fade duration={800} delay={400}>
-      <h1 style={{width: '16rem', fontSize: '2rem'}}>Hi, I’m Jonathan Fisher, a web developer that loves the creative process.</h1>
+      <h1 style={{width: '16rem', fontSize: '2rem'}}>Hi, I’m Jonathan Fisher, a web developer who enjoys the creative process.</h1>
     </Fade>
     <Fade duration={600}>
       <div className="case-study-container">
