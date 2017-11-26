@@ -7,6 +7,10 @@ import Tachyons from 'tachyons'
 import logo from './logo.svg'
 import banner_cover from './banner_cover.jpg'
 import './index.css'
+import ReactGA from 'react-ga'
+
+ReactGA.initialize('UA-000000-01')
+ReactGA.pageview(window.location.pathname + window.location.search)
 
 const Header = () => (
   <header>
