@@ -57,6 +57,7 @@ const TemplateWrapper = ({ children }) => (
       meta={[
         { name: 'description', content: 'Jonathan Fisher is a web developer and designer that has interest in storytelling on the web.' },
         { name: 'keywords', content: 'web, development, design, design systems, tachyons' },
+        { name: 'google-site-verification', content: 'iiExnczsKs14-yJbVE2NhRlNWgD-wXCbYiWh12kN-X0' },
       ]}
     />
     <Header />
