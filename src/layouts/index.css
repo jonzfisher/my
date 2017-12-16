@@ -28,3 +28,7 @@ body {
   display: inline-block;
   cursor: pointer;
 }
+
+.spectral {
+  font-family: 'Spectral', serif;
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import { navigateTo} from 'gatsby-link'
+import { Link, navigateTo} from 'gatsby-link'
 import { Fade, Zoom, Flip } from 'react-reveal'
 import historical_homecrafters from './historical_homecrafters.png'
 import continue_wip from './continue_wip.png'
@@ -22,14 +22,11 @@ const IndexPage = () => (
         <a href="https://dribbble.com/shots/3942531-Continue" className="case-study-container dib">
           <img src={continue_wip} className="case-study-thumb" />
         </a>
-        <a href="http://historicalhomecrafters.com/"
+        <div onClick={ () => navigateTo('/historical_homecrafters')}
           className="case-study-container dib">
           <img src={historical_homecrafters} className="case-study-thumb" />
-        </a>
+        </div>
       </div>
-    </Fade>
-    <Fade duration={2000} delay={300}>
-      <p className="i gray f4">A case study for Historical Homecrafters coming soon...</p>
     </Fade>
   </div>
 )

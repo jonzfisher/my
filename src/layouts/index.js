@@ -52,7 +52,9 @@ const TemplateWrapper = ({ children }) => (
         { name: 'keywords', content: 'web, development, design, design systems, tachyons' },
         { name: 'google-site-verification', content: 'iiExnczsKs14-yJbVE2NhRlNWgD-wXCbYiWh12kN-X0' },
       ]}
-    />
+    >
+      <link href="https://fonts.googleapis.com/css?family=Spectral:400,500i,600,800,800i" rel="stylesheet" />
+    </Helmet>
     <Header />
     <div
       style={{
@@ -64,11 +66,11 @@ const TemplateWrapper = ({ children }) => (
     >
       {children()}
     </div>
-    <footer className="sans-serif db m0 w-100">
-      <div className="mw8 center ph5 pv4">
-        <a href="http://github.com/jonzfisher" title="Github" className="f6 fw6 dib link navy">Github</a>
-        <a href="http://twitter.com/@jonzfisher" title="Github" className="f6 fw6 dib link navy pl2">Twitter</a>
-        <a href="http://medium.com/@jonzfisher" title="Medium" className="f6 fw6 dib link navy pl2">Medium</a>
+    <footer className="spectral db m0 w-100">
+      <div className="mw8 center ph5 pv4 f5 fw7">
+        <a href="http://github.com/jonzfisher" title="Github" className="dib link navy">Github</a>
+        <a href="http://twitter.com/@jonzfisher" title="Github" className="dib link navy pl2">Twitter</a>
+        <a href="http://medium.com/@jonzfisher" title="Medium" className="dib link navy pl2">Medium</a>
       </div>
     </footer>
   </div>
